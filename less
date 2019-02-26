@@ -1,0 +1,393 @@
+    1  docker ps
+    2  docker commit -c 'CMD ["redis-server"]' bdc89
+    3  docker run 8bd77
+    4  docker commit -c 'CMD ["redis-server"]' bdc89
+    5  docker run 3251d
+    6  docker pps
+    7  docker pp
+    8  docker ps
+    9  docker exec 8b9f sh
+   10  docker exec -it 8b9f sh
+   11  docker run dirol13/visits
+   12  docker run redis
+   13  sudo apt-get update
+   14  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   15  sudo apt-add-repository 'deb https://apt.dockerproject.org/repo ubuntu-xenial main'
+   16  sudo apt-get update
+   17  sudo apt-get install -y docker-engine
+   18  sudo systemctl enable docker
+   19  sudo mkdir -p /var/jenkins_home
+   20  sudo chown -R 1000:1000 /var/jenkins_home/
+   21  docker run -p 8080:8080 -p 50000:50000 -v /var/jenkins_home:/var/jenkins_home --name jenkins JAVA_OPTS="-Djenkins.install.runSetupWizard=false" -d jenkins/jenkins
+   22  docker run -p 8080:8080 -p 50000:50000 -v /var/jenkins_home:/var/jenkins_home JAVA_OPTS="-Djenkins.install.runSetupWizard=false" --name jenkins -d jenkins/jenkins:lts
+   23  docker run -p 8080:8080 -p 50000:50000 -v /var/jenkins_home:/var/jenkins_home JAVA_OPTS="-Djenkins.install.runSetupWizard=false" --name jenkins
+   24  docker run -p 8080:8080 -p 50000:50000 -v /var/jenkins_home:/var/jenkins_home JAVA_OPTS="-Djenkins.install.runSetupWizard=false" -d jenkins/jenkins:lts
+   25  docker run -p 8080:8080 -p 50000:50000 -v /var/jenkins_home:/var/jenkins_home --env jenkins/jenkins:ltsOPTS="-Djenkins.install.runSetupWizard=false" --name jenkins -d jenkins/jenkins:lts
+   26  cat /var/jenkins_home/secrets/initialAdminPassword 
+   27  docker stop jenkins
+   28  docker rm jenkins
+   29  docker run -p 8080:8080 jenkins
+   30  docker stop jenkins
+   31  docker ps -a
+   32  docker rm jenkins
+   33  docker rm 9c5
+   34  docker ps -a
+   35  docker run -p 8080:8080 -p 50000:50000 -v /var/jenkins_home:/var/jenkins_home --env JAVA_OPTS="-Djenkins.install.runSetupWizard=false" --name jenkins -d jenkins/jenkins
+   36  docker ps -a
+   37  cat 
+   38  cat /var/jenkins_home/secrets/initialAdminPassword
+   39  docker inspect -f "{{.Name}} {{.Config.Cmd}}" $(docker ps -a -q)
+   40  docker ps -a --no-trunc
+   41  vim /usr/local/bin/jen
+   42  docker ps -a --no-trunc
+   43  vim /usr/local/bin/jenkins.sh
+   44  ls -la
+   45  docker ps -a --no-trunc
+   46  vim /sbin/tini
+   47  docker ps -a --no-trunc
+   48  docker stop jenkins
+   49  docker rm jenkins
+   50  docker run -p 8080:8080 --env JAVA_OPTS="-Djenkins.install.runSetupWizard=false" jenkinsci/jenkins
+   51  docker run -p 8080:8080 --env JAVA_OPTS="-Djenkins.install.runSetupWizard=false" -d --name jenkins jenkinsci/jenkins
+   52  apt-get install git
+   53  mkdir ~/docker-demo
+   54  cd ./docker-demo/
+   55  git clone https://github.com/wardviaene/docker-demo
+   56  ls -la
+   57  mv ./docker-demo/* ./
+   58  ls -la
+   59  rm -rf ./docker-demo/
+   60  cd
+   61  cd /var/jenkins_home/war/
+   62  ls -la
+   63  cd ..
+   64  ls -la
+   65  cd ./nodes/
+   66  ls la
+   67  ls -la
+   68  cd ..
+   69  ls -la
+   70  cd ./war/
+   71  ls -la
+   72  cd ..
+   73  ls -la
+   74  mc
+   75  ls -la>less
+   76  ls
+   77  cd ./U
+   78  cd ./user
+   79  cd ./userContent/
+   80  ls -la
+   81  cd ..
+   82  ls -la
+   83  vim ./config.xml 
+   84  ls -la
+   85  docker stop jenkins
+   86  docker run -p 8080:8080 -v /var/jenkins_home:/var/jenkins_home -p 50000:50000 --env JAVA_OPTS="-Djenkins.install.runSetupWizard=false" -d --name jenkins jenkinsci/jenkins 
+   87  docker rm 4150
+   88  docker run -p 8080:8080 -v /var/jenkins_home:/var/jenkins_home -p 50000:50000 --env JAVA_OPTS="-Djenkins.install.runSetupWizard=false" -d --name jenkins jenkinsci/jenkins 
+   89  ls -la
+   90  cat ./secrets/initialAdminPassword 
+   91  vim ./secret.key
+   92  ls -la
+   93  vim ./users/users.xml 
+   94  vim ./users/admin_3758349036443565572/config.xml 
+   95  cd ..
+   96  docker run -d -v /var/jenkins_home:/var/jenkins_home:z -p 8080:8080 -p 50000:50000 rm name jenkins jenkins/jenkins:lts
+   97  docker rm jenkins
+   98  docker rm jenkins -f
+   99  docker run -d -v /var/jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 rm name jenkins jenkins/jenkins:lts
+  100  docker run -d -v /var/jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 --rm --name jenkins jenkins/jenkins:lts
+  101  cat /var/jenkins_home/secrets/initialAdminPassword 
+  102  docker ps -a
+  103  docker restart
+  104  docker restart jenins
+  105  docker restart jenkins
+  106  cd ./jenkins_home/
+  107  ls -la
+  108  cd ./work
+  109  ls -la
+  110  cd ./workspace/
+  111  ls -la
+  112  cd ./example\ node\ app/
+  113  ls -la
+  114  ls node_modules/
+  115  npm start
+  116  docker ps -a
+  117  docker rm jenkinsci
+  118  docker rm 77fb
+  119  docker ps -a
+  120  cd ~
+  121  git clone hhtps://github/wardviaene/jenkins-docker
+  122  git clone https://github/wardviaene/jenkins-docker
+  123  git clone https://github.com/wardviaene/jenkins-docker
+  124  cd jenkins-docker/
+  125  ls
+  126  docker build -t jenkins-docker.
+  127  docker build -t jenkins-docker 
+  128  docker build -t jenkins-docker .
+  129  docker stop jenkins
+  130  docker rm jenkins
+  131  ls /var/jenkins_home/
+  132  docker run -v /var/jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -p 8080:8080 -p 50000:50000 --name jenkins -d jenkins-docker
+  133  docker ps -a
+  134  ls -ahl /var/run/docker.sock 
+  135  docker exec -it jenkins bash
+  136  ls l-a
+  137  ls
+  138  vim ./Dockerfile 
+  139  cd ~
+  140  docker pull dirol13/docker-nodejs-demo
+  141  docker run -p 3000:3000 -d --name my-nodejs-app dirol13/docker-nodejs-demo
+  142  curl localhost:3000
+  143  cat /var/jenkins_home/secrets/initialAdminPassword 
+  144  docker ps
+  145  docker logs jenkins
+  146  docker ps
+  147  docker exec -it 67d
+  148  docker exec -it 67d bash
+  149  apt-get install telnet
+  150  telnet
+  151  telnet smtp.mailtrap.io 2525
+  152  docker ps -a
+  153  docker restart
+  154  docker restart jenkins
+  155  docker ps -a
+  156  docker -exec jenkins bash
+  157  docker exec -it jenkins bash
+  158  cd /var/jenkins_home/workspace/
+  159  ls -la
+  160  cd ./emailtest
+  161  ls -la
+  162  cd ../emailtest@tmp/
+  163  ls -la
+  164  cd ..
+  165  ls -la
+  166  cd ~
+  167  docker run -it apline sh
+  168  docker run -it alpine sh
+  169  docker ps
+  170  docker ps -a
+  171  docker run 16f
+  172  docker run 16feb sh
+  173  docker run -it 16feb sh
+  174  docker run -it alpine sh
+  175  docker ps
+  176  cd ~
+  177  mkdir simpleweb
+  178  vim
+  179  vim ./package.json
+  180  vim ./index.js
+  181  ls -la
+  182  mv ./index.js ./simpleweb/
+  183  mv ./package.json ./simpleweb/
+  184  cd ./simpleweb/
+  185  vim ./Dockerfile
+  186  ls -la
+  187  docker build .
+  188  vim ./Dockerfile 
+  189  docker build .
+  190  vim ./Dockerfile 
+  191  docker build .
+  192  vim ./Dockerfile 
+  193  docker build .
+  194  docker build -t dirol13/simpleweb .
+  195  docker run dirol13/simpleweb
+  196  docker run 80-p 8053:8053 dirol13/simpleweb
+  197  docker run -p 8053:8053 dirol13/simpleweb
+  198  docker run - -it dirol13/simpleweb sh
+  199  docker run -it dirol13/simpleweb sh
+  200  vim ./Dockerfile 
+  201  docker build -t dirol13/simpleweb .
+  202  docker run -p 8080:8053 dirol13/simpleweb
+  203  docker run -p 8053:8053 dirol13/simpleweb
+  204  vim ./index.js 
+  205  vim ./Dockerfile 
+  206  docker build -t dirol13/simpleweb .
+  207  vim ./index.js 
+  208  docker build -t dirol13/simpleweb .
+  209  docker run -it -p 8053:8053 dirol13/simpleweb
+  210  cd ..
+  211  l s-la
+  212  ls -la
+  213  docker ps
+  214  docker stop jenkins
+  215  mkdir visits
+  216  cd ./visits/
+  217  vim ./package.json
+  218  vim ./index.js
+  219  vim ./Dockerfile
+  220  docker build .
+  221  vim ./Dockerfile
+  222  docker build .
+  223  ls l-a
+  224  ls -la
+  225  vim ./Dockerfile 
+  226  pwd
+  227  vim ./Dockerfile 
+  228  docker build .
+  229  vim ./package.json 
+  230  docker build .
+  231  vim ./package.json 
+  232  docker build .
+  233  docker build -t dirol13/visits:latest
+  234  docker build -t dirol13/visits:latest .
+  235  docker run dirol13/visits
+  236  docker run redis
+  237  docker-compose
+  238  apt install docker-compose
+  239  docker-compose
+  240  vim docker-compose.yml
+  241  vim ./index.js 
+  242  docker-compose up
+  243  docker-compose -v
+  244  apt-get install --update docker-compose
+  245  apt-get --update docker-compose
+  246  apt-get update docker-compose
+  247  apt-get install
+  248  apt-get 
+  249  apt-get upgrade docker-compose
+  250  docker-compose -v
+  251  apt-get
+  252  apt-get install apt-file
+  253  apt-file update
+  254  apt-file find docker-compose3
+  255  docker -v
+  256  apt-get update docker
+  257  apt-get upgrade docker
+  258  docker -v
+  259  exit
+  260  docker ps
+  261  cd ~/visits/
+  262  ls -la
+  263  vim ./docker-compose.yml 
+  264  docker-compose  up --build
+  265  vim ./index.js 
+  266  docker-compose  up --build
+  267  docker build .
+  268  vim ./Dockerfile 
+  269  docker ps
+  270  docker ps -a
+  271  docker start 48a2
+  272  docker stop 48a2
+  273  docker prune
+  274  docker--help
+  275  docker --help
+  276  docker system prune
+  277  docker ps -a
+  278  docker-compose up --build
+  279  vim ./index.js 
+  280  docker-compose up --build
+  281  docker ps -a
+  282  docker-compose up -d
+  283  docker ps
+  284  docker compose down
+  285  docker-compose down
+  286  docker ps
+  287  vim ./index.js 
+  288  docker-compose up --build
+  289  vim ./index.js 
+  290  docker-compose up --build
+  291  docker ps -a
+  292  docker stop visits
+  293  docker stop dirol13/visits
+  294  docker stop 92430
+  295  docker ps -a
+  296  netstat -anp
+  297  netstat ntpa
+  298  netstat -ntpa
+  299  netstat --lt
+  300  netstat -ly
+  301  netstat -lt
+  302  netstat -pt
+  303  ifconfig
+  304  docker-compose down
+  305  docker ps -a
+  306  docker stop 71576
+  307  docker ps -a
+  308  netstat -an
+  309  cd ..
+  310  docker ps -a
+  311  service docker restart
+  312  docker ps -a
+  313  service docker stop
+  314  service network stpo
+  315  service network stop
+  316  /etc/init.d/networking stop
+  317  /etc/init.d/networking start
+  318  docker-compose ps
+  319  docker-compose restart
+  320  cd ~/visits/
+  321  ls -la
+  322  vim ./Dockerfile 
+  323  vim ./docker-compose.yml 
+  324  docker ps -a
+  325  ps -ux
+  326  ps -uxa
+  327  reboot
+  328  cd ~/visits/
+  329  docker-compose up --build
+  330  vim ./docker-compose.yml 
+  331  docker ps
+  332  vim ./index.js 
+  333  vim ./docker-compose.yml 
+  334  docker-compose up
+  335  docker-compose up --build
+  336  vim ./docker-compose.yml 
+  337  docker-compose up
+  338  vim ./index.js 
+  339  docker-compose up --build
+  340  vim ./docker-compose.yml 
+  341  docker-compose up --build
+  342  vim ./index.js 
+  343  docker-compose up --build
+  344  docker-compose  ps
+  345  cd ..
+  346  docker-compose ps
+  347  cd ./visits/
+  348  vim ./index.js 
+  349  docker ps
+  350  cd ..
+  351  node -v
+  352  apt-get install node.js
+  353  node -v
+  354  nodejs 
+  355  nodejs -v
+  356  cd ~
+  357  curl -sL https://github.com/nodesource/distributions/blob/master/deb/setup_11.x
+  358  ls -la
+  359  curl -sL https://github.com/nodesource/distributions/blob/master/deb/setup_11.x -o node11.sh
+  360  ls -la
+  361  bash ./node11.sh 
+  362  curl -sL https://raw.githubusercontent.com/nodesource/distributions/blob/master/deb/setup_11.x -o node11.sh
+  363  vim ./node11.sh 
+  364  curl -sL https://raw.githubusercontent.com/nodesource/distributions/master/deb/setup_11.x -o node11.sh
+  365  vim ./node11.sh 
+  366  sh ./node11.sh 
+  367  apt-get install -y nodejs
+  368  node -v
+  369  npm install -g create-react-app
+  370  ls
+  371  create-react-app frontend
+  372  cd /root/frontend/
+  373  ls
+  374  npm run test
+  375  npm run build
+  376  ls
+  377  ls build
+  378  ls build/static/
+  379  ls build/static/js/
+  380  npm run start
+  381  vim ./Dockerfile.dev
+  382  ls
+  383  docker build .
+  384  docker build -f Dockerfile.dev .
+  385  ls
+  386  mv ./node_modules/ ..
+  387  docker build -f Dockerfile.dev .
+  388  docker run 157d
+  389  docker run -p 3000:3000 157d
+  390  docker ps -a
+  391  docker start jenkins
+  392  history
+  393  history>less
